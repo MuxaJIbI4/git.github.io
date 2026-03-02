@@ -1,3 +1,4 @@
+baseurl: /git.github.io
 name: Git Developer Pages
 permalink: /rev_news/:year/:month/:day/:title/
 plugins:
