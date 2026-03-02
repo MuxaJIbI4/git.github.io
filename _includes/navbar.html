@@ -1,6 +1,12 @@
 <div id="navbar" class="navbar">
   <a href="{{ '/' | relative_url }}">Home</a>
 
+  <h3>Resources</h3>
+  <ul>
+    <li><a href="{{ '/git-reference/' | relative_url }}">Git Reference</a>
+    <li><a href="{{ '/htmldocs/'      | relative_url }}">Git HTML docs</a>
+  </ul>
+
   {% assign nb-groups = site.pages | group_by:"nb" %}
   
   {% comment %} We loop site.nb-order to sort categories in a defined order {% endcomment %}

@@ -4,6 +4,10 @@ by mistake, you may want:
     [HERE](https://git-scm.com/)
   - Wiki that has historically contained developer information from
     [HERE](https://git.wiki.kernel.org/index.php/Main_Page)
+  - HTML docs for latest Git release
+    [HERE]({{ '/htmldocs/' | relative_url }})
+  - Git Reference
+    [HERE]({{ '/git-reference/' | relative_url }})
 
 These pages are intended to collect information useful to Git developers. This
 is also the web home of:
